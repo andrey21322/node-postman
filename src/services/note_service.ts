@@ -15,7 +15,10 @@ function updatePost(post: IPost) {
     if(post.name.length < 3 || post.content.length < 3) {
         return 'Name and content length cant be less then 3'
     } else {
-    return editPost(post)
+        if(post.category === '' || post.category === undefined) {
+            post.category = 'Task'
+        }
+        return editPost(post)
     }
 }
 
@@ -32,7 +35,9 @@ function addNewPost(post: IPost) {
             day: 'numeric',
             year: 'numeric'
         })
-
+        if(post.category === '') {
+            post.category = 'Task'
+        }
         post.dateAt = dateAt 
         post.updatedDate = ""
         return addPost(post)

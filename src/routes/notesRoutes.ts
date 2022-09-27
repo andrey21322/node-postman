@@ -11,7 +11,6 @@ router.get('/', async (req, res) => {
 router.get('/post/:id', async (req, res) => {
     const id = req.params.id
     let post = await getPost(id)
-    console.log(post)
     res.send(post)
 })
 
