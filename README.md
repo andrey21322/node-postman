@@ -2,7 +2,7 @@
 
 ## Step one `install`
 
-## `npm-install`
+## `npm install`
 
 ## `npm run prebuild`
 
