@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.json())
 
-app.use("/posts", posts)
+app.use("/notes", posts)
 app.use("/archive", archive)
 
 app.listen( port, () => {
