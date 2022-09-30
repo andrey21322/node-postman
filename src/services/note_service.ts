@@ -23,7 +23,11 @@ function updatePost(post: IPost) {
 }
 
 function getPost(id: string) {
-    return getCurrentPost(id)
+    if(id === "stats") {
+        return getStats()
+    } else {
+        return getCurrentPost(id)
+    }
 }
 
 function addNewPost(post: IPost) {
