@@ -1,12 +1,14 @@
-{"posts":
-[
+{
+    "posts":
+    [
     {"id":"5","name":"Smth","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Task","dateAt":"September 23, 2022"},
     {"id":"6","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"},
     {"id":"7","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"}
     ],
     "archive":
     [
-        {"id":"5","name":"Smth","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Task","dateAt":"September 23, 2022"}
-        ,{"id":"6","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"}
-        ,{"id":"7","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"}
-    ]}
+    {"id":"1","name":"Smth","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Task","dateAt":"September 23, 2022"},
+    {"id":"2","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"},
+    {"id":"3","name":"Chair","content":"Do smth","date":"2022-09-24","updatedDate":"","category":"Idea","dateAt":"September 23, 2022"}
+    ]
+}
