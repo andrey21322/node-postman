@@ -9,13 +9,13 @@ router.get('/', async (req, res) => {
     res.send(posts)
 })
 
-router.post('/add/:id', async (req, res) => {
+router.post('/:id', async (req, res) => {
     const id: string = req.params.id
     const response: string = await addToArchive(id)
     res.send(response)
 })
 
-router.delete('/delete/:id', async (req, res) => {
+router.delete('/:id', async (req, res) => {
     const id: string = req.params.id
     const response: string = await removeFromArchive(id)
     res.send(response)
