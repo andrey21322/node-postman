@@ -19,11 +19,17 @@ And go to http://localhost:5000
 ## API Documentation
 
 GET /notes - get all tasks
+
 POST /notes - add task
+
 PATCH /notes/:id - edit task by id
+
 DELETE /notes/:id - delete task by id
+
 GET /notes/stats - get stats
 
 GET /archive - get all archive tasks
+
 POST /archive/:id - add task to archive
+
 DELETE /archive/:id - permanently delete task
