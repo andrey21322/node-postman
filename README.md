@@ -1,8 +1,7 @@
 # RESTful API TODO app
 ## Description
 Application in which implemented RESTful API CRUD approach.
-You are able not only to manage posts, but also get statistics of each task.
-Edit task if you did mistake or if you want add more description.
+You are able manage posts, edit task if you did mistake or if you want add more description.
 Just send task to archive when it's done or delete it if you don't need it anymore.
 
 ## Setup
