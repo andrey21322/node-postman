@@ -1,28 +1,29 @@
-# task-3
+# RESTful API TODO app
+## Description
+Application in which implemented RESTful API CRUD approach.
+You are able not only to manage posts, but also get statistics of each task.
+Edit task if you did mistake or if you want add more description.
+Just send task to archive when it's done or delete it if you don't need it anymore.
 
-## Step one `install`
+## Setup
+**Open directory with the project in terminal and type**
+*npm install*
+*npm run prebuild* 
+*npm run build*
 
-## `npm install`
+## Run
+*npm run start*
 
-## `npm run prebuild`
+And go to http://localhost:5000
 
-## `npm run build`
-## `npm run start`
-or `npx nodemon index.ts` :)
+## API Documentation
 
-## Step two `routes in postman` 
+GET /notes - get all tasks
+POST /notes - add task
+PATCH /notes/:id - edit task by id
+DELETE /notes/:id - delete task by id
+GET /notes/stats - get stats
 
-##   GET `http://localhost:5000/notes` - get all posts
-##   GET `/notes/stats` - get stats
-##   DELETE `/notes/:id` - delete from posts
-      (use id 5,6,7)
-##   POST `/notes` - add to posts
-      (keys: name, id, content, date, updatedDate, category)
-##   PATCH `/notes/:id` - edit post in posts
-      (keys: name, content, category, updatedDate. Use id 5,6,7)
-      
-##   GET `http://localhost:5000/archive` - get all archive posts
-##   POST `/:id` - add to archive
-      (use id 5,6,7)
-##   DELETE `/:id` - remove from archive
-      (use id 1,2,3)
+GET /archive - get all archive tasks
+POST /archive/:id - add task to archive
+DELETE /archive/:id - permanently delete task
